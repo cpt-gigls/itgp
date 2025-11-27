@@ -4,4 +4,10 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "duckdb>=1.4.1",
+    "geopandas>=1.1.1",
+    "polars>=1.35.2",
+    "pydantic>=2.12.4",
+    "pysal>=25.7",
+]
